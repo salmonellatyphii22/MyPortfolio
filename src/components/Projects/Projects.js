@@ -1,90 +1,96 @@
+
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
+
+// Temporary images from the existing project assets
+// Replace these with screenshots of your own projects later.
+import chatify from "../../Assets/Projects/chatify.png";
+import bitsOfCode from "../../Assets/Projects/blog.png";
+import editor from "../../Assets/Projects/codeEditor.png";
 import leaf from "../../Assets/Projects/leaf.png";
 import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
 
 function Projects() {
   return (
     <Container fluid className="project-section">
       <Particle />
+
       <Container>
         <h1 className="project-heading">
-          My Recent <strong className="purple">Works </strong>
+          My Recent <strong className="purple">Works</strong>
         </h1>
+
         <p style={{ color: "white" }}>
           Here are a few projects I've worked on recently.
         </p>
-        <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+
+        <Row
+          style={{
+            justifyContent: "center",
+            paddingBottom: "10px",
+          }}
+        >
+          {/* BingeBox */}
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={chatify}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="BingeBox"
+              description="A Netflix-inspired streaming platform built using React.js and TMDB API. Integrated Firebase Authentication and developed backend services using FastAPI and MongoDB to support features such as user watchlists, viewing history, ratings, reviews, and search history."
+              ghLink="https://github.com/salmonellatyphii22/BingeBox"
+              demoLink="https://bingeboxnetc.onrender.com/"
             />
           </Col>
+
+          {/* SnackShack */}
 
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={bitsOfCode}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="SnackShack"
+              description="An Android-based canteen ordering application developed using Kotlin and XML. The application allows users to browse menu items, add products to their cart, and proceed through the checkout process, providing a convenient digital canteen ordering experience."
+              ghLink="https://github.com/salmonellatyphii22/CanteenOrder"
+              demoLink="https://drive.google.com/file/d/1qdlgmNuTC7Luxr6kZpTY_Sx_fwJuk6-G/view?usp=sharing"
             />
           </Col>
+
+          {/* LLM Indian Law */}
 
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={editor}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              title="LLM-Based Indian Legal RAG"
+              description="An LLM-based Retrieval-Augmented Generation project focused on Indian legal and constitutional information. The system combines document retrieval with Large Language Models to provide context-aware responses and make legal information more accessible."
+              ghLink="https://github.com/salmonellatyphii22/LLM_Indian_Law"
             />
           </Col>
+
+          {/* HydroIQ */}
 
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={leaf}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              title="HydroIQ"
+              description="An IoT-based water quality monitoring project designed to monitor water parameters using sensors and provide meaningful insights into water quality. The project focuses on sensor integration, data collection, and smart monitoring solutions."
+              ghLink="https://github.com/salmonellatyphii22/HydrooIQ"
             />
           </Col>
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={suicide}
-              isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
-            />
-          </Col>
+          {/* Student Academic Module */}
 
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={emotion}
               isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+              title="Student Academic Module"
+              description="A student academic management backend developed using FastAPI, SQLAlchemy, and MySQL. The system manages students, courses, subjects, enrollments, marks, and academic results through structured APIs and database relationships."
+              ghLink="https://github.com/salmonellatyphii22/student_module"
             />
           </Col>
         </Row>

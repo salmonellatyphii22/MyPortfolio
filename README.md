@@ -1,76 +1,299 @@
+
 <h2 align="center">
-  Portfolio Website - v2.0<br/>
-  <a href="https://soumyajit.vercel.app/" target="_blank">soumyajit.tech</a>
+  Sweta Jha - Personal Portfolio
+  <br/>
+  <a href="YOUR_PORTFOLIO_DEPLOYMENT_LINK" target="_blank">
+    My Portfolio Website
+  </a>
 </h2>
+
 <div align="center">
-  <img alt="Demo" src="./Images/readme-img1.png" />
+  <img alt="Portfolio Demo" src="./Images/readme-img1.png" />
 </div>
 
 <br/>
 
-<center>
+<div align="center">
 
-[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com) &nbsp;
-[![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com) &nbsp;
-[![forthebadge](https://forthebadge.com/images/badges/open-source.svg)](https://forthebadge.com) &nbsp;
-![GitHub Repo stars](https://img.shields.io/github/stars/soumyajit4419/Portfolio?color=red&logo=github&style=for-the-badge) &nbsp;
-![GitHub forks](https://img.shields.io/github/forks/soumyajit4419/Portfolio?color=red&logo=github&style=for-the-badge)
+  <img src="https://img.shields.io/badge/React.js-61DAFB?style=for-the-badge&logo=react&logoColor=black" />
 
-</center>
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
+
+  <img src="https://img.shields.io/badge/Responsive-Design-blue?style=for-the-badge" />
+
+  <img src="https://img.shields.io/badge/Open%20Source-❤️-green?style=for-the-badge" />
+
+</div>
 
 <h3 align="center">
-    🔹
-    <a href="https://github.com/soumyajit4419/Portfolio/issues">Report Bug</a> &nbsp; &nbsp;
-    🔹
-    <a href="https://github.com/soumyajit4419/Portfolio/issues">Request Feature</a>
+
+  <a href="https://github.com/salmonellatyphii22">
+    GitHub Profile
+  </a>
+  &nbsp; | &nbsp;
+  <a href="https://www.linkedin.com/in/sweta-jha-213440328/">
+    LinkedIn
+  </a>
+
 </h3>
 
-## TL;DR
+---
 
-You can fork this repo to modify and make changes of your own. Please give me proper credit by linking back to [Soumyajit4419](https://github.com/soumyajit4419/Portfolio). Thanks!
+## 👩‍💻 About Me
 
-## Built With
+Hi! I'm **Sweta Jha**, a Computer Science Engineering student at **Indira Gandhi Delhi Technological University for Women (IGDTUW), New Delhi**.
 
-My personal portfolio <a href="https://soumyajit.vercel.app/" target="_blank">soumyajit.tech</a> which features some of my github projects as well as my resume and technical skills.<br/>
+I am passionate about software development, problem-solving, full-stack development, Android application development, and Artificial Intelligence.
 
-This project was built using these technologies.
+I enjoy building practical applications, exploring new technologies, and strengthening my Data Structures and Algorithms skills.
 
+- 🎓 B.Tech in Computer Science Engineering at IGDTUW
+- 💻 Interested in Full Stack Development and AI/LLM Applications
+- 🧠 Solved 400+ DSA problems across LeetCode and GeeksforGeeks
+- 🏆 Maximum LeetCode Rating: 1610
+- 🚀 Passionate about building impactful software solutions
+
+---
+
+## 🛠️ Tech Stack
+
+### Programming Languages
+- C++
+- Python
+- JavaScript
+- Kotlin
+- Java
+- SQL
+
+### Web Technologies
+- HTML
+- CSS
 - React.js
 - Node.js
-- Express.js
-- CSS3
-- VsCode
-- Vercel
+- FastAPI
 
-## Features
+### Databases
+- MongoDB
+- MySQL
 
-**📖 Multi-Page Layout**
+### AI & Machine Learning
+- Retrieval-Augmented Generation (RAG)
+- Prompt Engineering
+- Large Language Models (LLMs)
+- LangChain
+- LangGraph
 
-**🎨 Styled with React-Bootstrap and Css with easy to customize colors**
+### Core Computer Science
+- Data Structures & Algorithms
+- Object-Oriented Programming
+- Database Management Systems
+- Operating Systems
+- Computer Networks
 
-**📱 Fully Responsive**
+### Tools
+- Git & GitHub
+- Firebase
+- Android Studio
+- VS Code
 
-## Getting Started
+---
 
-Clone down this repository. You will need `node.js` and `git` installed globally on your machine.
+## 🚀 Featured Projects
 
-## 🛠 Installation and Setup Instructions
+### 1. BingeBox – Netflix-Inspired Streaming Platform
 
-1. Installation: `npm install`
+A full-stack streaming platform inspired by Netflix, built using React.js and TMDB API.
 
-2. In the project directory, you can run: `npm start`
+**Technologies:**
+- React.js
+- TMDB API
+- Firebase Authentication
+- FastAPI
+- MongoDB
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-The page will reload if you make edits.
+**Features:**
+- Browse movies and TV shows
+- User authentication
+- Watchlist management
+- Viewing history
+- Ratings and reviews
+- Search functionality
 
-## Usage Instructions
+🔗 **GitHub:** [BingeBox](https://github.com/salmonellatyphii22/BingeBox)
 
-Open the project folder and Navigate to `/src/components/`. <br/>
-You will find all the components used and you can edit your information accordingly.
+🎥 **Demo:** Add your BingeBox demo video link
 
-### Show your support
+---
 
-Give a ⭐ if you like this website!
+### 2. SnackShack – Android Canteen Ordering Application
 
-<a href="https://www.buymeacoffee.com/soumyajit4419" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-violet.png" alt="Buy Me A Coffee" height= "60px" width= "217px" ></a>
+An Android-based canteen ordering application designed to simplify the food ordering experience.
+
+**Technologies:**
+- Kotlin
+- XML
+- Android Development
+
+**Features:**
+- Browse menu items
+- Add items to cart
+- Manage orders
+- Checkout interface
+
+🔗 **GitHub:** [SnackShack](https://github.com/salmonellatyphii22/CanteenOrder)
+
+🎥 **Demo:** Add your screen recording link
+
+---
+
+### 3. LLM-Based Indian Legal RAG
+
+An LLM-powered Retrieval-Augmented Generation project focused on Indian legal and constitutional information.
+
+**Technologies:**
+- Python
+- Large Language Models
+- Retrieval-Augmented Generation (RAG)
+- Prompt Engineering
+
+**Features:**
+- Retrieval of relevant legal information
+- Context-aware LLM responses
+- Legal and constitutional document exploration
+
+🔗 **GitHub:** [LLM Indian Law](https://github.com/salmonellatyphii22/LLM_Indian_Law)
+
+---
+
+### 4. HydroIQ – Smart Water Quality Monitoring System
+
+An IoT-based project focused on monitoring water quality using sensors and collecting meaningful environmental data.
+
+**Technologies:**
+- IoT
+- Sensors
+- Embedded Systems
+
+**Features:**
+- Water quality monitoring
+- Sensor-based data collection
+- Smart monitoring solutions
+
+🔗 **GitHub:** Add your HydroIQ repository link
+
+---
+
+### 5. Student Academic Module
+
+A backend-based academic management system developed to manage student and academic information through structured APIs.
+
+**Technologies:**
+- FastAPI
+- Python
+- SQLAlchemy
+- MySQL
+
+**Features:**
+- Student management
+- Course management
+- Subject management
+- Enrollment management
+- Marks and results management
+- Relational database integration
+
+🔗 **GitHub:** [Student Academic Module](https://github.com/salmonellatyphii22/student_module)
+
+---
+
+## ✨ Portfolio Features
+
+- 📖 Multi-page portfolio layout
+- 🎨 Responsive design using React-Bootstrap
+- 💻 Projects showcase
+- 📄 Resume section
+- 🛠️ Technical skills section
+- 🔗 GitHub and LinkedIn integration
+- 📱 Mobile-friendly interface
+
+---
+
+## ⚙️ Getting Started
+
+### Prerequisites
+
+Make sure you have the following installed:
+
+- Node.js
+- npm
+- Git
+
+### Installation
+
+Clone the repository:
+
+```bash
+git clone YOUR_NEW_REPOSITORY_URL
+```
+
+Navigate to the project directory:
+
+```bash
+cd Portfolio
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm start
+```
+
+Open your browser and visit:
+
+```text
+http://localhost:3000
+```
+
+The portfolio will reload automatically whenever you make changes.
+
+---
+
+## 📁 Project Structure
+
+```text
+Portfolio/
+│
+├── public/
+├── src/
+│   ├── components/
+│   │   ├── Home/
+│   │   ├── About/
+│   │   ├── Projects/
+│   │   ├── Resume/
+│   │   └── Navbar.js
+│   │
+│   ├── Assets/
+│   ├── App.js
+│   └── index.js
+│
+├── package.json
+└── README.md
+```
+
+---
+
+## 📬 Connect With Me
+
+- **GitHub:** https://github.com/salmonellatyphii22
+- **LinkedIn:** https://www.linkedin.com/in/sweta-jha-213440328/
+
+---
+
+## ⭐ Show Your Support
+
+If you like my portfolio or find my projects interesting, feel free to explore my repositories and connect with me!

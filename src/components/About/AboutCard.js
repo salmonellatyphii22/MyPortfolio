@@ -8,37 +8,55 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi everyone! I’m <span className="purple">Soumyajit Behera</span>{" "}
-            from <span className="purple">Bhubaneswar, India</span>.
+            Hi everyone! I'm{" "}
+            <span className="purple">Sweta Jha</span>{" "}
+            from <span className="purple">New Delhi, India</span>.
             <br />
-            I’m currently working as a{" "}
-            <span className="purple">Software Developer</span> at{" "}
-            <span className="purple">Juspay</span>.
-            <br />I hold an Integrated M.Sc. (IMSc) in{" "}
-            <span className="purple">Mathematics and Computing</span> from{" "}
-            <span className="purple">BIT Mesra</span>.
+            I'm currently pursuing my{" "}
+            <span className="purple">
+              B.Tech in Computer Science Engineering
+            </span>{" "}
+            at{" "}
+            <span className="purple">
+              Indira Gandhi Delhi Technical University for Women (IGDTUW)
+            </span>
+            .
             <br />
             <br />
-            Outside of coding, I love engaging in activities that keep me
-            creative and inspired:
+            I'm passionate about{" "}
+            <span className="purple">
+              Software Development, Full Stack Development,
+              Android Development, and Artificial Intelligence
+            </span>
+            .
+            <br />
+            <br />
+            I enjoy building practical applications and exploring
+            technologies such as{" "}
+            <span className="purple">
+              React.js, FastAPI, Kotlin, Node.js, MongoDB, and LLMs
+            </span>
+            .
+            <br />
+            <br />
+            Some of my key projects include BingeBox, SnackShack,
+            Student Academic Module, HydroIQ, and an{" "}
+            <span className="purple">
+              LLM-Based Indian Constitution Legal RAG Project
+            </span>
+            .
+            <br />
+            <br />
+            Outside of coding, I enjoy solving Data Structures and
+            Algorithms problems, learning new technologies, and
+            continuously improving my development skills.
           </p>
-
-          <ul>
-            <li className="about-activity">
-              <ImPointRight /> Playing Games 🎮
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> Writing Tech Blogs ✍️
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> Traveling and Exploring New Places 🌍
-            </li>
-          </ul>
 
           <p style={{ color: "rgb(155 126 172)" }}>
-            "Strive to build things that make a difference!"{" "}
+            "Strive to learn, build, and create an impact through code!"
           </p>
-          <footer className="blockquote-footer">Soumyajit</footer>
+
+          <footer className="blockquote-footer">Sweta</footer>
         </blockquote>
       </Card.Body>
     </Card>

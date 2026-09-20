@@ -12,44 +12,69 @@ function Home2() {
             <h1 style={{ fontSize: "2.6em" }}>
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
+
             <p className="home-about-body">
-              I’m a Software Engineer who loves transforming ideas into
-              reliable, scalable products. Over time, I’ve explored several
-              technologies and found my passion in building high-performance
-              systems and intuitive user experiences.
+              Hi, I'm Sweta Jha, a Computer Science Engineering student
+              at Indira Gandhi Delhi Technical University for Women
+              (IGDTUW), New Delhi. I am passionate about software
+              development, problem-solving, and building practical
+              applications that combine functionality with a great
+              user experience.
+
               <br />
               <br />
-              I’m proficient in
+
+              I have experience working with
               <i>
                 <b className="purple">
-                  {" "}
-                  JavaScript, C++, Rust, Node.js, and Java{" "}
+                  {" "}C++, Python, JavaScript, Kotlin, and Java{" "}
                 </b>
               </i>
-              — and I enjoy working across both backend and frontend stacks.
+              and enjoy exploring both frontend and backend development.
+
               <br />
               <br />
-              My key areas of interest include developing
+
+              My technical interests include developing
               <i>
                 <b className="purple">
-                  {" "}
-                  Web Applications, Blockchain Solutions,{" "}
+                  {" "}Web Applications, Android Applications,
+                  and Backend Systems{" "}
                 </b>
               </i>
-              and exploring new ways to bridge on-chain and off-chain systems.
+              using technologies such as React.js, FastAPI, Node.js,
+              MongoDB, and Firebase.
+
               <br />
               <br />
-              Whenever possible, I love building projects with
-              <b className="purple"> Node.js </b> and modern frameworks like{" "}
-              <i>
-                <b className="purple">React.js</b> and{" "}
-                <b className="purple">Next.js</b>.
-              </i>
+
+              I have worked on projects including
+                <i>
+                  <b className="purple">
+                    {" "}BingeBox, SnackShack, Student Academic Module,
+                    HydroIQ, and an LLM-Based Indian Constitution Legal RAG Project{" "}
+                  </b>
+                </i>
+                , each helping me strengthen my skills in frontend
+                development, backend systems, Android application development,
+                IoT-based solutions, and Large Language Model integration.
+
+                <br />
+                <br />
+
+                I also enjoy solving Data Structures and Algorithms problems,
+                continuously improving my coding skills, and exploring new
+                technologies to build practical and impactful software solutions.
             </p>
           </Col>
+
           <Col md={4} className="myAvtar">
             <Tilt>
-              <img src={myImg} className="img-fluid" alt="avatar" />
+              <img
+                src={myImg}
+                className="img-fluid"
+                alt="avatar"
+              />
             </Tilt>
           </Col>
         </Row>
@@ -57,4 +82,5 @@ function Home2() {
     </Container>
   );
 }
+
 export default Home2;
