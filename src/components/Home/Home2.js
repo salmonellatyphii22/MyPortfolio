@@ -27,7 +27,7 @@ function Home2() {
               I have experience working with
               <i>
                 <b className="purple">
-                  {" "}C++, Python, JavaScript, Kotlin, and Java{" "}
+                  {" "}C++, Python, JavaScript and Kotlin{" "}
                 </b>
               </i>
               and enjoy exploring both frontend and backend development.
@@ -42,7 +42,7 @@ function Home2() {
                   and Backend Systems{" "}
                 </b>
               </i>
-              using technologies such as React.js, FastAPI, Node.js,
+              using technologies such as React.js, FastAPI,
               MongoDB, and Firebase.
 
               <br />
