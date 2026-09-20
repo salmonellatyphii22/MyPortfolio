@@ -1,44 +1,4 @@
 
-<h2 align="center">
-  Sweta Jha - Personal Portfolio
-  <br/>
-  <a href="YOUR_PORTFOLIO_DEPLOYMENT_LINK" target="_blank">
-    My Portfolio Website
-  </a>
-</h2>
-
-<div align="center">
-  <img alt="Portfolio Demo" src="./Images/readme-img1.png" />
-</div>
-
-<br/>
-
-<div align="center">
-
-  <img src="https://img.shields.io/badge/React.js-61DAFB?style=for-the-badge&logo=react&logoColor=black" />
-
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
-
-  <img src="https://img.shields.io/badge/Responsive-Design-blue?style=for-the-badge" />
-
-  <img src="https://img.shields.io/badge/Open%20Source-❤️-green?style=for-the-badge" />
-
-</div>
-
-<h3 align="center">
-
-  <a href="https://github.com/salmonellatyphii22">
-    GitHub Profile
-  </a>
-  &nbsp; | &nbsp;
-  <a href="https://www.linkedin.com/in/sweta-jha-213440328/">
-    LinkedIn
-  </a>
-
-</h3>
-
----
-
 ## 👩‍💻 About Me
 
 Hi! I'm **Sweta Jha**, a Computer Science Engineering student at **Indira Gandhi Delhi Technological University for Women (IGDTUW), New Delhi**.
@@ -62,14 +22,12 @@ I enjoy building practical applications, exploring new technologies, and strengt
 - Python
 - JavaScript
 - Kotlin
-- Java
 - SQL
 
 ### Web Technologies
 - HTML
 - CSS
 - React.js
-- Node.js
 - FastAPI
 
 ### Databases
@@ -179,7 +137,7 @@ An IoT-based project focused on monitoring water quality using sensors and colle
 - Sensor-based data collection
 - Smart monitoring solutions
 
-🔗 **GitHub:** Add your HydroIQ repository link
+🔗 **GitHub:** [HydroIQ](https://github.com/salmonellatyphii22/water-quality-app)
 
 ---
 
