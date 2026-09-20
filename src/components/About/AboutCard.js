@@ -34,7 +34,7 @@ function AboutCard() {
             I enjoy building practical applications and exploring
             technologies such as{" "}
             <span className="purple">
-              React.js, FastAPI, Kotlin, Node.js, MongoDB, and LLMs
+              React.js, FastAPI, Kotlin, MongoDB, and LLMs
             </span>
             .
             <br />
