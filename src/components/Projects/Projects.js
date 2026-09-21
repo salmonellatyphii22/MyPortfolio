@@ -79,6 +79,7 @@ function Projects() {
               title="HydroIQ"
               description="An IoT-based water quality monitoring project designed to monitor water parameters using sensors and provide meaningful insights into water quality. The project focuses on sensor integration, data collection, and smart monitoring solutions."
               ghLink="https://github.com/salmonellatyphii22/water-quality-app"
+              demoLink="https://drive.google.com/file/d/1LrKrGSXo-RAwvFMtobDXj7EYusaKjo5s/view?usp=sharing"
             />
           </Col>
 
